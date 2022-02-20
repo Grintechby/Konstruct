@@ -140,10 +140,6 @@ nav {
     letter-spacing: 1px;
     transition: .2s;
 }
-
-.menu a:hover {
-    color: #00A4E5;
-}
 /* Story */
 .story {
     color: #48555B;
