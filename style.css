@@ -265,8 +265,15 @@ nav {
 .newsletter_container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     max-width: 685px;
     padding: 30px 0;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
 }
 
 .newsletter_subtitle {
@@ -275,3 +282,28 @@ nav {
     line-height: 30px;
     letter-spacing: 1px;
 }
+
+#mail {
+    height: 40px;
+    width: 250px;
+    border: 1px solid #979797;
+    border-right: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-left: 15px;
+}
+
+.sign_up {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    padding: 10px 50px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #00A4E5;
+    color: #fff;
+}
+/* Footer */
