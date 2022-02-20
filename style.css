@@ -34,6 +34,15 @@ h2 {
     line-height: 18px;
     text-decoration: none;
     padding: 10px 30px;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: #2825df;
+}
+
+.menu a:hover, .columns a:hover, .phone a:hover, .mail a:hover {
+    color: #00A4E5;
 }
 
 .description {
@@ -46,6 +55,12 @@ h2 {
     font-size: 11px;
     font-weight: 400;
     line-height: 19px;
+}
+
+.logo {
+    background: url(./assets/icons/projeco-logo.png) no-repeat center;
+    width: 103px;
+    height: 23px; 
 }
 
 .strip {
@@ -72,12 +87,6 @@ header {
 header .logo_container {
     margin: 0 auto;
     padding-top: 42px;
-}
-
-header .logo {
-    background: url(./assets/icons/projeco-logo.png) no-repeat center;
-    width: 103px;
-    height: 23px; 
 }
 
 header .description {
@@ -146,7 +155,8 @@ nav {
 }
 
 .story .strip {
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .story_container {
@@ -292,18 +302,126 @@ form {
     font-weight: 400;
     line-height: 19px;
     padding-left: 15px;
+    outline: none;
 }
 
-.sign_up {
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 18px;
+.newsletter .button {
     letter-spacing: 0.5px;
     padding: 10px 50px;
     height: 40px;
     width: 150px;
     border: none;
-    background-color: #00A4E5;
-    color: #fff;
 }
 /* Footer */
+footer {
+    background-color: #141A20;
+    color:#fff
+}
+
+.footer_container {
+    max-width: 910px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    margin: 0 auto
+}
+
+.chapter_name {
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.footer_container .logo_container {
+    padding-top: 20px;
+}
+
+.footer_container .description {
+    padding-top: 16px;
+    letter-spacing: 1px;
+}
+
+.links {
+    padding-left: 70px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    gap: 35px;
+}
+
+.columns a {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.contact_us {
+    padding-left: 60px;
+}
+
+address, .phone a, .mail a {
+    color: #fff;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: normal;
+    text-decoration: none;
+    transition: .2s;
+}
+
+address {
+    padding-top: 15px;
+}
+
+.phone {
+    padding-top: 10px;
+}
+
+.mail {
+    padding-top: 10px;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 30px;
+    padding-left: 45px;
+}
+
+.facebook {
+    background: url(./assets/icons/facebook.svg) no-repeat center;
+    width: 13px;
+    height: 12px;
+}
+
+.twitter {
+    background: url(./assets/icons/twitter.svg) no-repeat center;
+    width: 13px;
+    height: 12px;
+}
+
+.google {
+    background: url(./assets/icons/google.svg) no-repeat center;
+    width: 13px;
+    height: 12px;
+}
+/* Copyright */
+.copyright {
+    background-color: #171819;
+    color: #fff;
+}
+
+.copyright .chapter_name {
+    padding: 25px 0;
+    text-align: center;
+}
